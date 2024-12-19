@@ -1,13 +1,16 @@
+<script lang="ts" setup>
+import { VanUploader } from '#build/components';
+
+const test = () => {
+}
+</script>
+
 <template>
   <div>
+    <VanButton type="primary">测试</VanButton>
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
-    <!-- <NuxtLayout/> -->
   </div>
 </template>
-
-<script lang="ts" setup>
-
-</script>
 
 <style></style>
